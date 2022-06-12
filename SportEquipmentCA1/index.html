@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="description" content="sport products to revserve">
+    <title>Sport Ca1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+	<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/56d4a5bb86.js" crossorigin="anonymous"></script>
+  
+</head> 
+<body>
+    <!--navbar and header which will be on all pages -->
+	<header>
+	<div class="header">
+		
+		<nav class="navbar collapsible" id="navbar">
+			<a aria-label="FitHouse" class="nav-logo" href="index.html">
+				<img src="images/logoFH.svg" alt="Fit House Brand">
+			</a>
+			<svg class="icon icon--white nav__toggle">
+			<use href="images/sprite.svg#menu"></use>
+			</svg>
+			<ul class="list nav__list collapsible__content" id="menu">
+				<li class="nav__item"><a href="products.html">Products</a></li>
+				<li class="nav__item"><a href="index.html">About</a></li>
+				<li class="nav__item"><a href="index.html">Contact</a></li>
+				<li class="nav__item"><a href="index.html">Home</a></li>
+			</ul>
+		</nav>
+	</div>
+   </header>
+	
+	<!-- Main body of the site with the products and links to the reserve and produc page-->
+    <Main>
+		<div class="dropdown">
+			<button onclick="myFunction()" class="dropbtn">Fit House Products</button>
+			<div id="myDropdown" class="dropdown-content">
+			  <a href="products.html">Exercise bikes </a>
+			  <a href="products.html">Yoga Bands </a>
+			  <a href="products.html">Tech Sports</a>
+			</div>
+		</div>
+		<section class="block block--dark block--skewed-left hero">
+			<div class="container grid">
+				<header class="block__header hero__content">
+						<!--The below is a link to AOS css which can give different effects on the web page when scrolling found it watching "CodewithMosh"-->
+				  <h1 data-aos="zoom-in" data-aos-duration="3000" class="block__heading">
+					Fitness Equipment for those serious about getting FIT</h1>
+				  <h2 data-aos="zoom-in" data-aos-duration="3000" class="hero__tagline">Tailored made fitness from the experts</p>
+				</header>  
+			</div>
+		</section>
+		<section data-aos="fade-up" data-aos-duration="3000" class="block container block-plans">
+			<div class="grid grid--colsx3">
+       		 	<div class="plan">
+					<div class="card card--secondary">
+						<header class="card__header">
+							<img src="images/accessories.jpg" width=100% height=100% alt="fit house logo"/>
+						</header>
+						<div class="card__body">
+						  <ul class="list">
+							  <li class="list__item"><b>FIT HOUSE ACCESSORIES</b></li>
+							<li class="list__item">Customer Reviews</li>
+							<li class="list__item">Customer Ratings</li>
+							<li class="list__item">Price from €50</li>
+						  </ul>
+							<button class="btn btn--outline btn--block" onClick="location.href='products.html'">See Products</button>
+						</div>
+          			</div>
+       			</div>
+				<div class="plan">
+				  	<div class="card card--secondary">
+						<header class="card__header">
+							<img src="images/threadmill.jpg" width=100% height=50% alt="fit house accesories"/>
+						</header>
+					<div class="card__body">
+					  <ul class="list">
+						<li class="list__item"><b>FIT HOUSE TECH EQUIPMENT</b></li>
+						<li class="list__item">Customer Reviews</li>
+						<li class="list__item">Customer Ratings</li>
+						<li class="list__item">Price from €2000</li>
+					  </ul>
+					  <button class="btn btn--outline btn--block" onClick="location.href='products.html'">See Products</button>
+					</div>
+				  </div>
+				</div>
+			<div class="plan">
+			  	<div class="card card--secondary">
+					<header class="card__header">
+						<img src="images/threadmillSlider.jpg" width=100% height=100% alt="fit house logo"/>
+					</header>
+				<div class="card__body">
+					  <ul class="list">
+						<li class="list__item"><b>FIT HOUSE EXERCISE BIKES</b></li>
+						<li class="list__item">Customer Reviews</li>
+						<li class="list__item">Customer Ratings</li>
+						<li class="list__item">Prices from €2500</li>
+					  </ul>
+				  	 <button class="btn btn--outline btn--block" onClick="location.href='products.html'">See Products</button>
+				</div>
+			  </div>
+			</div>
+      </div>
+    </section>
+	<section data-aos="fade-up" data-aos-duration="3000" class="block container block-plans">
+			<div class="grid grid--colsx3">
+       		 	<div class="plan">
+					<div class="card card--secondary">
+						<header class="card__header">
+							<img src="images/weights.jpg" width=100% height=100% alt="fit house logo"/>
+						</header>
+						<div class="card__body">
+						  <ul class="list">
+							  <li class="list__item"><b>FIT HOUSE ACCESSORIES</b></li>
+							<li class="list__item">Customer Reviews</li>
+							<li class="list__item">Customer Ratings</li>
+							<li class="list__item">Price from €50</li>
+						  </ul>
+							<button class="btn btn--outline btn--block" onClick="location.href='products.html'">See Products</button>
+						</div>
+          			</div>
+       			</div>
+				<div class="plan">
+				  	<div class="card card--secondary">
+						<header class="card__header">
+							<img src="images/exercisebike .jpg" width=100% height=100% alt="fit house accesories"/>
+						</header>
+					<div class="card__body">
+					  <ul class="list">
+						<li class="list__item"><b>FIT HOUSE TECH EQUIPMENT</b></li>
+						<li class="list__item">Customer Reviews</li>
+						<li class="list__item">Customer Ratings</li>
+						<li class="list__item">Price from €2000</li>
+					  </ul>
+					  <button class="btn btn--outline btn--block" onClick="location.href='products.html'">See Products</button>
+					</div>
+				  </div>
+				</div>
+			<div class="plan">
+			  	<div class="card card--secondary">
+					<header class="card__header">
+						<img src="images/yogaBands.jpg" width=100% height=100% alt="fit house logo"/>
+					</header>
+				<div class="card__body">
+					  <ul class="list">
+						<li class="list__item"><b>FIT HOUSE EXERCISE BIKES</b></li>
+						<li class="list__item">Customer Reviews</li>
+						<li class="list__item">Customer Ratings</li>
+						<li class="list__item">Prices from €2500</li>
+					  </ul>
+				  	 <button class="btn btn--outline btn--block" onClick="location.href='products.html'">See Products</button>
+				</div>
+			  </div>
+			</div>
+      </div>
+    </section>
+	<section data-aos="fade-up-right" data-aos-duration="3000" class="block container block-plans">
+			<div class="grid grid--colsx3">
+       		 	<div class="plan">
+					<div class="card card--secondary">
+						<header class="card__header">
+							<img src="images/accessories.jpg" width=100% height=100% alt="fit house logo"/>
+						</header>
+						<div class="card__body">
+						  <ul class="list">
+							  <li class="list__item"><b>FIT HOUSE ACCESSORIES</b></li>
+							<li class="list__item">Customer Reviews</li>
+							<li class="list__item">Customer Ratings</li>
+							<li class="list__item">Price from €50</li>
+						  </ul>
+							<button class="btn btn--outline btn--block" onClick="location.href='products.html'">See Products</button>
+						</div>
+          			</div>
+       			</div>
+				<div class="plan">
+				  	<div class="card card--secondary">
+						<header class="card__header">
+							<img src="images/exercisebike .jpg" width=100% height=50% alt="fit house accesories"/>
+						</header>
+					<div class="card__body">
+					  <ul class="list">
+						<li class="list__item"><b>FIT HOUSE TECH EQUIPMENT</b></li>
+						<li class="list__item">Customer Reviews</li>
+						<li class="list__item">Customer Ratings</li>
+						<li class="list__item">Price from €2000</li>
+					  </ul>
+					  <button class="btn btn--outline btn--block" onClick="location.href='products.html'">See Products</button>
+					</div>
+				  </div>
+				</div>
+			<div class="plan">
+			  	<div class="card card--secondary">
+					<header class="card__header">
+						<img src="images/techsports.jpg" width=100% height=100% alt="fit house logo"/>
+					</header>
+				<div class="card__body">
+					  <ul class="list">
+						<li class="list__item"><b>FIT HOUSE EXERCISE BIKES</b></li>
+						<li class="list__item">Customer Reviews</li>
+						<li class="list__item">Customer Ratings</li>
+						<li class="list__item">Prices from €2500</li>
+					  </ul>
+				  	 <button class="btn btn--outline btn--block" onClick="location.href='products.html'">See Products</button>
+				</div>
+			  </div>
+			</div>
+      </div>
+    </section>		
+    </Main>
+    <!--Footer of the site which will be on all pages-->
+	<footer class="footer">
+		<div class="container1">
+			<div class="footer-main container1">
+				<div class="col">
+					<h3 class="footer-heading">USEFUL LINKS</h3>
+					<a href="index.html" class="footer-link">Fit House</a>
+					<a href="index.html" class="footer-link">About Us</a>
+					<a href="index.html" class="footer-link">Contact Us</a>
+					<a href="products.html" class="footer-link">Our Products</a>
+				</div>
+				<div class="col">
+					<h3 class="footer-heading">NEWSLETTER</h3>
+					<form>
+						<!--this is the form and the input must be in the form of an eamil address if not it will throw back an message asking for email address-->
+						<input type="email" placeholder="Your Email Address" required>
+						<br>
+						<button type="submit">SUBSCRIBE NOW</button>
+					</form>
+				</div>
+				<div class="col">
+					<h3 class="footer-heading">CONTACT US</h3>
+					<P>123 Off Street<br/>City Center<br/>Dublin<br/>email:info@123fithouse.com<br/>Tel:+35311231234</P> 
+				</div>
+				<div class="col">
+					<h3>SOCIAL</h3>
+					<div class="social-icons">
+						<a href="#" class="social"><i class="fab fa-facebook"></i>
+						<a href="#" class="social"><i class="fab fa-twitter"></i>
+						<a href="#" class="social"><i class="fab fa-youtube"></i>
+						<a href="#" class="social"><i class="fab fa-instagram"></i>
+				</div>
+			</div>
+			
+			<div class="footer-bottom">
+				<span class="copyright">&copy; 2022 Fit House</span>
+			</div>
+		</div>
+	</footer>
+		
+
+
+    <script src="js/main.js"></script> 
+		<!--The below link it to allow the function of the zoom capability on the page -->
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>AOS.init();</script>
+	<!--This is the function to allow the navbar stay on the top of the page if we scroll down the website-->
+	<script>var navbar = document.getElementById("navbar");
+			var menu = document.getElementById("menu");
+
+			window.onscroll = function(){
+				if(window.pageYOffset >= menu.offsetTop){
+					navbar.classList.add("sticky");
+				}
+				else{
+				navbar.classList.remove("sticky");
+				}
+			}
+	</script>
+</body>
+</html>
