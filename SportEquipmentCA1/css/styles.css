@@ -2,12 +2,16 @@
 @import "./normalize.css"
 /*defines our color pallette*/
 :root {
-    --color-primary:#076ef5;
-    --color-secondary:#4471ab;
-    --color-accent:#05e3f7;
+    --color-primary: #2584ff;
+    --color-secondary: #00d9ff;
+    --color-accent: #ff3400;
     --color-headings: #1b0760;
     --color-body: #918ca4;
-}
+    --color-body-darker: #5c5577;
+    --color-border: #ccc;
+    --border-radius: 30px;
+  }
+  
 @media screen {
     
 }
@@ -105,6 +109,7 @@ a {
         padding-left: 0;
     }
 }
+
 .card {
     border-radius: 7px;
     box-shadow: 0 0 20px 10px #f3f3f3;
@@ -479,7 +484,7 @@ a {
     display:flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px 0;
+    padding: 0 1rem;
     align-items: center; 
 	box-shadow: 10px;
     width: 100%;
@@ -495,6 +500,7 @@ a {
     justify-content: space-between;
     align-items: center;
     transition: padding 5s;
+    z-index:1;
 }
 .navbar.sticky ul{
     width: auto;
@@ -503,7 +509,7 @@ a {
 .nav__list{
     width:100%;
     display: inline-block;
-    margin:20px 30px;
+    margin: 0;
 }
 .nav__item{
     padding:0.5rem 2 rem;
@@ -518,12 +524,12 @@ a {
 }
 .nav__toggle{
     opacity: .5;
-    transition: box-shadow .15s;
+    transition: box-shadow .20s;
     cursor: pointer;
 }
 .navbar.collapsible--expanded .nav__toggle{
     opacity: 1;
-    box-shadow: 0 0 0 3px white;
+    box-shadow: 0 0 0 3px antiquewhite;
     border-radius: 4px;
 }
 .nav-logo {
@@ -531,22 +537,23 @@ a {
   width: 150px;
   cursor:pointer;
 }
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
     .nav__toggle{
         display:none;
     }
     .nav__list{
         width: auto;
         display:flex;
-        font-size: 1.4rem;
+        font-size: 1.7rem;
         max-height: 100%;
         opacity: 1;
         padding:0 3rem;   
     }
-}
-.nav__item {
-    border: 0;
-    margin-right: 10px;   
+
+    .nav__item {
+        border: 0;
+        margin-right: 10px;   
+    }
 }
 .block-plans .grid {
   gap: 8rem 4rem;
