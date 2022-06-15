@@ -44,6 +44,9 @@ h1,h2,h3{
     margin-bottom: 1rem;
     line-height: 1.1;
 }
+h4 {
+    color: var(--color-card);
+}
 
 h1{
     font-size: 6rem;
@@ -110,7 +113,12 @@ a {
 
 .card {
     border-radius: 5px;
-    box-shadow: 0 0 10px 5px blueviolet;
+    box-shadow: 0 0 10px 5px rgb(178, 115, 236);
+    overflow: hidden;
+}
+.card-1 {
+    border-radius: 5px;
+    box-shadow: 0 0 10px 5px rgb(146, 146, 243);
     overflow: hidden;
 }
 
@@ -446,7 +454,6 @@ a {
 	text-align: center;
 	margin-bottom: 6rem;
 }
-
 .block--dark {
     background: rgb(70,6,244);
     background: linear-gradient(90deg, rgba(70,6,244,1) 0%, rgba(111,2,241,1) 53%, rgba(124,34,195,1) 100%);
@@ -556,7 +563,7 @@ a {
 .block-plans .grid {
   gap: 8rem 4rem;
 }
-.block-plans .card {
+.block-plans .card .card-1{
   max-width: 500px;
   margin: 0 auto;
 }
@@ -564,10 +571,8 @@ a {
     background: rgb(34,55,195);
     background: linear-gradient(90deg, rgba(34,55,195,1) 0%, rgba(37,4,77,1) 53%, rgba(74,68,92,1) 100%);
     color: whitesmoke;
-    padding: 4rem 1rem;  
-   
+    padding: 4rem 1rem;    
 }
-
 .footer a {
     color: whitesmoke;
     text-decoration: none;
@@ -674,17 +679,18 @@ form button{
 }
 
 .dropbtn {
-    background-color: #7a29dd;
+    background-color: #9851f0;
     color: antiquewhite;
     padding: 16px;
     font-size: 40px;
     border: none;
     cursor: pointer;
+    border-radius: 25px;
   }
   
   /* Dropdown button on hover & focus */
   .dropbtn:hover, .dropbtn:focus {
-    background-color: #2237c3;
+    background-color: #3c53eb;
   }
   
   /* The container <div> - needed to position the dropdown content */
@@ -692,15 +698,17 @@ form button{
     position: relative;
     display: inline-block;
     font-size: 40PX;
+    border-radius: 25px;
   }
   
   /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #2237c3;
+    background-color: #a45be0;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px antiquewhite;
+    border-radius: 25px;
     z-index: 1;
   }
   
