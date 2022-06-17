@@ -1,3 +1,4 @@
+/*This function allows the collapsible on the navbar menu when clicked- The JS was set up bye Sharon Farrell  */
 const collapsibles = document.querySelectorAll(".collapsible");
 collapsibles.forEach((item) =>
   item.addEventListener("click", function () {
@@ -7,7 +8,7 @@ collapsibles.forEach((item) =>
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }
-
+// This code was taken from W3Schools for a dropdown button to show items 
 // Close the dropdown menu if the user clicks outside of it
 window.onclick = function(event) {
   if (!event.target.matches('.dropbtn')) {
