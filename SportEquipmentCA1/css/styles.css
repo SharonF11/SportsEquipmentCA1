@@ -68,7 +68,7 @@ p {
         font-size: 2.4rem
     }
 }
-/*Styling for the lsit Item for the products */
+/*Styling for the list Item for the products */
 a {
     text-decoration: none;
 }
@@ -278,6 +278,7 @@ a {
 .block--dark .block-heading {
     color: antiquewhite;
 }
+/*This styles the cut off shaped at the bottom of the block of gradient colour in the header*/
 .block--skewed-right {
     padding-bottom: calc(var(--padding-vertical) +2rem);
     clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);  
@@ -313,6 +314,7 @@ a {
     margin-top: 10px;
     font-size: 20px;
 }
+/*Sticky allows the navbar to stay visible on scrolling and index brings the navbar to the front of other elements*/
 .navbar.sticky{
     position: fixed;
     top: 0;
@@ -328,6 +330,7 @@ a {
     width: auto;
 
 }
+/*This is the list on the navbar*/
 .nav__list{
     width:100%;
     display: inline-block;
@@ -349,6 +352,7 @@ a {
     transition: box-shadow .20s;
     cursor: pointer;
 }
+/*Allows the navbar menu to collaspe on smaller devices and show the menu Icon this can be clicked to show the pages */
 .navbar.collapsible--expanded .nav__toggle{
     opacity: 1;
     box-shadow: 0 0 0 3px antiquewhite;
@@ -359,6 +363,7 @@ a {
   width: 150px;
   cursor:pointer;
 }
+/*The media queries make the elements visible on different devices */
 @media screen and (min-width:768px) {
     .nav__toggle{
         display:none;
@@ -434,6 +439,7 @@ display: block;
     text-decoration: none;
     transition: color 0.3s;
 }
+/*On hover changes coour to grey*/
 .footer a:hover{
     color:grey;   
 }
@@ -468,6 +474,7 @@ display: block;
     margin: 0 auto;
     font-size: 30px;
 }
+/*This gives a hover effect as you point to the website*/
 .footer-link :hover{
     color: rgb(102, 100, 100);
     transition: color 0.3s ease;
